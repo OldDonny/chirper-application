@@ -1,0 +1,13 @@
+
+    <mat-toolbar>
+    <a [routerLink]='["/signup"]'> <img height="50" src="/assets/icon.png"></a>
+     <a routerLink="/homepage">Tree House</a>
+     <a routerLink="/listpage">Chirps</a>
+     <div>
+       
+       <a (click)='condition= !condition'>Learn more</a>
+    </div>
+       
+    
+    </mat-toolbar>
+    <p *appInfo="condition" >{{this.info}}</p>

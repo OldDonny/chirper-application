@@ -1,0 +1,33 @@
+
+a{
+
+  color: white;
+}
+
+button{
+ float: right;
+}
+
+
+
+.welcome{
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-size: 3em;
+  background-color:rgba(255, 255, 255, 0.5)
+}
+
+
+.chirp_box{
+  text-align: center;
+  position: relative;
+  ;
+}
+
+
+
+  .color{
+    height: 100vh;
+    overflow: hidden;
+    background-color:#A5D6A7 ;
+  }

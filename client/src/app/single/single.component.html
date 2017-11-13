@@ -1,0 +1,16 @@
+<ng-container *ngIf="!!chirp">
+ <mat-card class="back-card">
+   <mat-card class="user">
+   <mat-card-title>
+      <img src="/assets/hh.svg">
+      <h3>{{chirp.user}}</h3>
+   </mat-card-title>
+   <mat-card-content>
+      <h5>{{chirp.message}}</h5>
+      <h4>{{chirp.chirp}}</h4>
+   </mat-card-content>
+   <button  (click)="backDelete()"  >Delete Chirp</button>
+  </mat-card>
+ </mat-card>
+</ng-container>
+

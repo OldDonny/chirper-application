@@ -1,0 +1,9 @@
+
+
+<a *ngFor="let chirp of chirps" [routerLink]="['/singlepage', chirp.id]">
+   <mat-card    class="info_chirp align-content-center">
+       <h3>{{chirp.user}}</h3>
+      <p class="text">{{chirp.message}}</p>
+    </mat-card>
+  </a>
+

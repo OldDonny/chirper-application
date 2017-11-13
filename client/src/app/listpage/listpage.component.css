@@ -1,0 +1,15 @@
+.body{
+    background-color:#C8E6C9;
+    margin: 0 auto;
+}
+
+p{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    color:#4E342E;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+

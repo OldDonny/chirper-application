@@ -1,0 +1,52 @@
+
+body{
+    height: 100vh;
+    background-color: #81C784;
+    background-image: url(/assets/bigtree.svg);
+    background-size: 42rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+mat-toolbar{
+    background-color: #81C784;
+}
+
+mat-card{
+    position: relative;
+    z-index: 1;
+    opacity: .6;
+   
+    
+    
+}
+
+mat-card:hover{
+    
+    opacity: 1;
+}
+
+.banner{
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6em;
+    padding-top:3em; 
+    padding-bottom: .5em;
+    margin: 0 auto;
+}
+
+img{
+    height: 25em;
+    position: relative;
+    margin-bottom:0;
+}
+
+.signup{
+    margin-top: 5em;
+    text-align: center;
+}
+
+.signin{
+   padding-bottom: 1em;
+   padding-left: 1em;
+}

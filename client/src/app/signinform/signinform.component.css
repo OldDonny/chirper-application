@@ -1,0 +1,10 @@
+mat-card{
+   width: 12em;
+    opacity: .6
+
+}
+
+mat-card:hover{
+    opacity: 1
+}
+

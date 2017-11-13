@@ -1,0 +1,26 @@
+
+.input-box{
+    float: right;
+    text-align: right;
+}
+
+
+
+
+mat-fab{
+    color: green;
+}
+
+mat-card-title{
+    font-size: 2em;
+}
+
+mat-card{
+    font-family: 'Josefin Slab', serif;
+    margin-top:3em;
+   transform: translateX(100%);
+   background-color:rgba(255, 255, 255, 0.5);
+    position: relative;
+    height: 25em;
+    text-align: center;
+}

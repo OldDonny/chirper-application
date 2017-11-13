@@ -1,0 +1,17 @@
+
+body{
+    height: 100vh;
+    background-color: transparent;
+    background-image: url('/assets/mytreehouse.png');
+    background-repeat: repeat-x;
+    background-position: fixed;
+    background-position-y: bottom;
+    background-size: 24em;
+}
+
+
+.treehouse{
+    position: relative;
+    margin: 6em;
+}
+

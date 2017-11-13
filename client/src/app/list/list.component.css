@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.info_chirp{
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    width: 26em;
+    background-color: #6C836C;
+    margin: 0 auto;
+    margin-bottom:1em; 
+  
+}
+
+.info_chirp:hover{
+    padding: -2em;
+    border: 1px solid #4E342E ;
+}
